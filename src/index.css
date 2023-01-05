@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html,body{margin: 0;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  text-align: center;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 30px;
+  align-items: center;
+  /* background-image: url("./images/THJJRUhNlEc.png"); */
+  background-size: cover;
+  background-color: #0E0E0E;
+  color: white;
+}
+
+.page-title {
+  font-family: Inter;
+  font-size: 42.7947px;
+  line-height: 24px;
+  letter-spacing: -0.045em;
+}
+
+.toggle-button {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.search-form {
+  background: white;
+  border: 1px solid #D1D5DB;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  width: 462px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-top: -14px;
+}
+
+.search-input {
+  width: 70%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6B7280;
+  border: 1px solid #D1D5DB;
+  border-radius: 6px 0px 0px 6px;
+  /* background: white url("./images/Search-Icon.png") no-repeat 10px; */
+  background-size: 4%;
+  padding: 3px 3px 3px 30px;
+}
+
+.search-button {
+  width: 30%;
+  background: #F9FAFB;
+  border: 1px solid #D1D5DB;
+  box-sizing: border-box;
+  border-radius: 0px 6px 6px 0px;
+  cursor: pointer;
 }
